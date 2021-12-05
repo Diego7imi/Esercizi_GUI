@@ -3,10 +3,7 @@ public class Contatore
 {
 	private int i;
 	
-	Contatore(int j)
-	{
-		this.i = j;
-	}
+	public int getValore() {return i;}
 	
 	public void azzeraContatore()
 	{
